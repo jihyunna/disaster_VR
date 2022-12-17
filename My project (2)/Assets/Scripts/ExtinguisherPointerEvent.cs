@@ -23,10 +23,10 @@ public class ExtinguisherPointerEvent : MonoBehaviour
     {
         if (IsOn)
         {
-            if (barTime <= 10.0f)
+            if (barTime <= 1.0f)
                 barTime += Time.deltaTime;
 
-            LoadingBar.fillAmount = barTime / 10.0f;
+            LoadingBar.fillAmount = barTime / 1.0f;
 
             transform.position = Vector3.MoveTowards(gameObject.transform.position, TargetPosition1.transform.position, 0.5f);
         }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerTransform : MonoBehaviour
 {
-    public float speed = 30f;
+    public float speed1 = 20f;
+    public float speed2 = 50f;
     public float scrollSpeed = 2000.0f;
     public GameObject PlayerTargetPosition1;
     public GameObject PlayerTargetPosition2;
@@ -23,8 +24,8 @@ public class PlayerTransform : MonoBehaviour
     {
         float v = Input.GetAxis("Vertical") * Time.deltaTime;
         float h = Input.GetAxis("Horizontal") * Time.deltaTime;
-        transform.Translate(fb * v * speed);
-        transform.Rotate(lr * h * speed);
+        transform.Translate(fb * v * speed1);
+        transform.Rotate(lr * h * speed2);
 
         float scroollWheel = Input.GetAxis("Mouse ScrollWheel");
         Camera.main.fieldOfView -= scroollWheel * Time.deltaTime * scrollSpeed;
