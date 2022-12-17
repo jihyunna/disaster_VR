@@ -12,19 +12,19 @@ public class MoveCamera : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            this.transform.Translate(Vector3.forward * 2.0f * Time.deltaTime);
+            this.transform.Translate(Vector3.forward * 6.0f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            this.transform.Translate(Vector3.forward * 2.0f * Time.deltaTime);
+            this.transform.Translate(Vector3.forward * 6.0f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            this.transform.Translate(Vector3.forward * 2.0f * Time.deltaTime);
+            this.transform.Translate(Vector3.forward * 6.0f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            this.transform.Translate(Vector3.forward * 2.0f * Time.deltaTime);
+            this.transform.Translate(Vector3.forward * 6.0f * Time.deltaTime);
         }
     }
 }

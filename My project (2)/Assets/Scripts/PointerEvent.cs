@@ -25,7 +25,7 @@ public class PointerEvent : MonoBehaviour
                 barTime += Time.deltaTime;
             }
             LoadingBar.fillAmount = barTime / 1.0f;
-            Instantiate(Manual, new Vector3(-300, 163, -143),Quaternion.Euler(0,-90,0));
+            Instantiate(Manual, new Vector3(-49, 25, 5),Quaternion.Euler(0,-90,0));
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
