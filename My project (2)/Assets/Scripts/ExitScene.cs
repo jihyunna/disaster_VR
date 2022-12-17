@@ -12,9 +12,9 @@ public class ExitScene : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(1))
         {
             SceneChange();
         }
@@ -23,6 +23,6 @@ public class ExitScene : MonoBehaviour
 
     private void SceneChange()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Restart");
     }
 }
