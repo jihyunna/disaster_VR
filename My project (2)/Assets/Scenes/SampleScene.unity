@@ -6497,6 +6497,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2091027589, guid: e35650d7351c6a748adf368845d29c18, type: 3}
+      propertyPath: Manual
+      value: 
+      objectReference: {fileID: 3531493680698303357, guid: 93e865fc69898164ebcbefc0ca7e53ba,
+        type: 3}
+    - target: {fileID: 2091027589, guid: e35650d7351c6a748adf368845d29c18, type: 3}
       propertyPath: LoadingBar
       value: 
       objectReference: {fileID: 842539233}
